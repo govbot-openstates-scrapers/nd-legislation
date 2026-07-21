@@ -1,8 +1,3 @@
-# 🏛️ North Dakota Open States Scraper (Paused)
+# 🏛️ North Dakota Open States Scraper
 
-Scheduled scraping is paused — North Dakota is currently out of session.
-
-The workflow can still be triggered manually via workflow_dispatch when needed.
-
-Session status is checked daily by the govbot `check-sessions` workflow, which will
-automatically switch this repo back to the active scrape template when a new session begins.
+Runs the official openstates docker container to scrape data for legislation and push on a nightly basis.
